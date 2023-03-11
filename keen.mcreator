@@ -1,0 +1,57 @@
+{
+  "mod_elements": [
+    {
+      "name": "SkillCartridge",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_cartridge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/keen/item/SkillCartridgeItem.java",
+          "src/main/resources/assets/keen/models/item/skill_cartridge.json"
+        ]
+      }
+    },
+    {
+      "name": "KeenLeveling",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keen_leveling",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabkeen_leveling": "Keen Leveling",
+      "item.keen.skill_cartridge": "Skill Cartridge"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "keen",
+    "modName": "KeenLeveling",
+    "version": "1.0.0",
+    "author": "Reckl, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.keen",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110219
+}
