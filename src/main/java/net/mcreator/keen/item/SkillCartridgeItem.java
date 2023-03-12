@@ -29,6 +29,6 @@ public class SkillCartridgeItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\\u00a7bConsume to obtain a \\u00a79Skill Point"));
+		list.add(Component.literal("\u00A71Consume to obtain a\u00A7b Skill Point"));
 	}
 }

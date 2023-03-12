@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "orb",
+    "texture": "orb3",
     "customModelName": "Normal",
     "name": "Skill Cartridge",
     "rarity": "EPIC",
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "\\u00a7bConsume to obtain a \\u00a79Skill Point"
+      "§1Consume to obtain a§b Skill Point"
     ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",

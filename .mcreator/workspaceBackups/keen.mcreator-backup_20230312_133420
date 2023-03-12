@@ -3,6 +3,7 @@
     {
       "name": "SkillCartridge",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_cartridge",
@@ -22,6 +23,23 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "BatteryTier1",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_tier_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/keen/block/BatteryTier1Block.java",
+          "src/main/resources/assets/keen/models/item/battery_tier_1.json",
+          "src/main/java/net/mcreator/keen/block/entity/BatteryTier1BlockEntity.java",
+          "src/main/resources/assets/keen/blockstates/battery_tier_1.json",
+          "src/main/resources/assets/keen/models/block/battery_tier_1.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -29,7 +47,8 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabkeen_leveling": "Keen Leveling",
-      "item.keen.skill_cartridge": "Skill Cartridge"
+      "item.keen.skill_cartridge": "Skill Cartridge",
+      "block.keen.battery_tier_1": "Battery Tier 1"
     }
   },
   "foldersRoot": {
@@ -53,5 +72,5 @@
     "modElementsPackage": "net.mcreator.keen",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300110219
+  "mcreatorVersion": 202300110610
 }

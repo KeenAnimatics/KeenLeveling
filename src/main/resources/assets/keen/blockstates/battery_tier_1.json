@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "keen:block/battery_tier_1"
+    }
+  }
+}

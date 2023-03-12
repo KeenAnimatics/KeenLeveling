@@ -1,0 +1,9 @@
+{
+  "parent": "keen:custom/battery_tier_1",
+  "textures": {
+    "all": "keen:blocks/battery1texture",
+    "particle": "keen:blocks/battery1texture",
+    "0": "keen:blocks/battery1texture"
+  },
+  "render_type": "cutout"
+}

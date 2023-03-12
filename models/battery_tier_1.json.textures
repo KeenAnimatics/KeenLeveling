@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "battery1texture"
+      },
+      "name": "default"
+    }
+  }
+}
